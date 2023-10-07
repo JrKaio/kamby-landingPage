@@ -51,7 +51,7 @@ const Contact = () => {
   return (
     <section id="contact" className="w-full py-20 border-b-[1px] border-b-black">
       <div className="flex justify-center items-center text-center">
-        <Title title="CONTATO" des="NOS CONTATE" />
+        <Title title="Cadastro" des="Cadastro de Produtores" />
       </div>
       <div className="w-full">
         <div className="w-full h-auto flex flex-col lgl:flex-row justify-between">
@@ -63,6 +63,7 @@ const Contact = () => {
                   <p className="text-sm text-gray-400 uppercase tracking-wide">
                     Nome
                   </p>
+                  
                   <input
                     onChange={(e) => setUsername(e.target.value)}
                     value={username}
