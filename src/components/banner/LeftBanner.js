@@ -18,16 +18,14 @@ const LeftBanner = () => {
         <h4 className=" text-lg font-normal">BEM VINDO!</h4>
         <h2 className="text-4xl font-bold text-white">
           SOMOS O <span className="text-designColor capitalize">PROJETO KAMBY</span>
-          <h2><span> {text}</span>
+          <span> {text}</span>
           <Cursor
             cursorBlinking="false"
             cursorStyle="|"
             cursorColor="#253683"
-          /></h2>
+          />
+        </h2> 
            
-        </h2>
-        
-         
         <p className="text-base font-bodyFont leading-6 tracking-wide">
         Iniciado em 2015, o programa Kamby tem como principal objetivo
             melhorar a produção leiteira na região de Tupã, tanto em quesitos
