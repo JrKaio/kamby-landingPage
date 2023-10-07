@@ -5,6 +5,7 @@ import Features from "./components/features/Features";
 import Projects from "./components/projects/Projects";
 import Coordenadores from "./components/coordenadores/Coordenadores";
 import Contact from "./components/contact/Contact";
+import Footer from "./components/footer/Footer";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
         <Coordenadores />
         <Contact />
       </div>
+        <Footer />
     </div>
   );
 }
