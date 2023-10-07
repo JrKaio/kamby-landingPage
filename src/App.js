@@ -8,7 +8,7 @@ import Contact from "./components/contact/Contact";
 
 function App() {
   return (
-    <div className="w-full h-auto bg-bodyColor text-lightText">
+    <div className="w-full h-auto bg-bodyColor text-lightText px-4">
       <div className="max-w-screen-xl mx-auto">
         <Navbar />
         <Banner />

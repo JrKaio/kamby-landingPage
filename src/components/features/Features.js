@@ -32,7 +32,7 @@ function Features() {
       className="w-full py-30 border-b-[1px] border-b-black"
     >
       <Title des="Atividades envolvidas" />
-      <div className="grid grid-cols-3 gap-20">
+      <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3  gap-6 xl:gap-20">
         <Card
           title="Qualidade do leite"
           des="Lorem ipsum dolor sit amet, consectetur adipiscing elit. is simply dummy text of the printing and typesetting industry. "
